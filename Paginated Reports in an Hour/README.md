@@ -12,17 +12,16 @@ For this workshop a **Power BI Pro** or **Premium Per User** license and access 
 - [Download Power BI Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=58158)
 - [Download the Contoso_Sample.pbix File](https://github.com/microsoft/pbiworkshops/raw/main/Paginated%20Reports%20in%20an%20Hour/Source%20Files/Contoso_Sample.pbix)
 
-
 ___
 
 ## Setup
 
 ### Power BI service
-1. Navigate to the [Power BI service](https://app.powerbi.com).
-2. Within the Power BI service, select the Workspaces option within the navigation menu and locate a workspace that is backed by either Premium Capacity or Premium Per User.
-3. Within the Workspace:
-    - Select **New** and the **Upload a file** option
-    - Within **Create new content**, select **Local file** and upload the **Contoso_Sample.pbix**
+- [ ] 1. Navigate to the [Power BI service](https://app.powerbi.com).
+- [ ] 2. Within the Power BI service, select the Workspaces option within the navigation menu and locate a workspace that is backed by either Pro or Premium license.
+- [ ] 3. Within the Workspace:
+    - [ ] - Select **New** and the **Upload a file** option
+    - [ ] - Within **Create new content**, select **Local file** and upload the **Contoso_Sample.pbix**
 
 ### Power BI Report Builder
 1. Navigate to the **View** tab and check the **Properties**, **Parameters** and **Grouping** options if they are not currently enabled.
@@ -32,6 +31,7 @@ ___
 # Query Designer
 
 ### Objective - Connect to a Data Source and create a Dataset using the Power BI Dataset Connection.
+
 
 1. Within the **Report Data** pane, right click the **Data Sources** option and select **Add Power BI Dataset Connection...**
 
@@ -222,8 +222,8 @@ ___
     | :-- | :-- |
     | Calendar_Year | Row groups |
     | Manufacturer | Row groups |
-    | Column groups | Month |
-    | Values | Total_Sales |
+    | Month | Column groups |
+    | Total_Sales | Values |
 
 7. From the **Values** group select the chevron next to **Total_Sales**, set to **Sum** and then press **Next >**
     1. Leave the default **Layout** with subtotal below, press **Next >**
